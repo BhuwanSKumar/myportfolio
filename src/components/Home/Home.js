@@ -11,7 +11,7 @@ import './Home.scss'
 function Home() {
    const [letterClass, setLetterClass] = useState('text-animate', 'text-animate-hover')
 
-   const nameArray = ['a', 'k', 's', 'h', 'a', 'y,',]
+   const nameArray = ['b', 'h', 'u', 'w', 'a', 'n,',]
    const jobArray = [
       'w',
       'e',
