@@ -30,7 +30,7 @@ function About() {
                </h1>
 
                <p>
-                  I'm <strong>Bhuwan Saretia</strong>, a passionate <strong>Software Developer</strong>, 
+                  I'm <strong>Bhuwan</strong>, a passionate <strong>Software Developer</strong>, 
                   <strong> Full Stack Engineer</strong>, and <strong>Competitive Programmer</strong> 
                   pursuing my <strong>B.Tech in Electrical Engineering at NIT Durgapur</strong>.
                   <br /><br />
