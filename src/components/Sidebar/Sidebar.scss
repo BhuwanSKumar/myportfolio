@@ -109,6 +109,12 @@ nav {
       }
    }
 
+   a.certificate-link {
+      &:after {
+         content: 'CERTIFICATES';
+      }
+   }
+
    a.active {
       svg {
          color: #4e4a85;
