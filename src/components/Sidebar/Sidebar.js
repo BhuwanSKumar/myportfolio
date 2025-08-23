@@ -18,8 +18,8 @@ function Sidebar() {
      <div className="nav-bar">
        <Link className="logo" to="/">
          <img src={LogoN} alt="Logo" />
-         <img className="sub-logo" src={LogoName} alt="Lakshay" />
-         <img className="sub-log" src={WebD} alt="Lakshay" />
+         <img className="sub-logo" src={LogoName} alt="Bhuwan" />
+         <img className="sub-log" src={WebD} alt="Bhuwan" />
        </Link>
        <nav>
          <div className="nav-item">

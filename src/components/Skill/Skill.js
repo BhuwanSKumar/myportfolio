@@ -68,16 +68,13 @@ function Skill() {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={["S", "k", "i", "l", "l", "s", " ", "&"]}
+              strArray={["S", "k", "i", "l", "l", "s"]}
               idx={15}
             />
-            <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={["E", "x", "p", "e", "r", "i", "e", "n", "c", "e"]}
-              idx={22}
-            />
+            
           </h1>
+          <br />
+
           <p>
             The main area of my expertise is full-stack web development(both
             client and service side of the web).
@@ -107,6 +104,17 @@ function Skill() {
             - Core CS Concepts: Data Structures & Algorithms, OOP, System Design  
             <br />
             <br />
+
+            <br />
+
+              <h1> <AnimatedLetters
+              letterClass={letterClass}
+              strArray={["E", "x", "p", "e", "r", "i", "e", "n", "c", "e"]}
+              idx={22}
+            /></h1>
+            <br />
+           
+      
 
             <div className="exp-flex">
               <a
