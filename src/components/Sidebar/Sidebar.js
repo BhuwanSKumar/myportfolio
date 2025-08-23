@@ -60,6 +60,7 @@ function Sidebar() {
            >
              <FontAwesomeIcon icon={faCertificate} color="#4d4d4e" />
            </NavLink>
+           <div className="horizontal-line" />
          </div>
 
 
@@ -71,7 +72,7 @@ function Sidebar() {
            >
              <FontAwesomeIcon icon={faContactCard} color="#4d4d4e" />
            </NavLink>
-             <div className="horizontal-line" />
+             
          </div>
 
          
