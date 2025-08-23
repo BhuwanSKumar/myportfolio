@@ -3,23 +3,10 @@ import { useEffect, useState, useRef } from "react";
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './Project.scss'
 import { Outlet } from 'react-router-dom'
-// import huluH from '../../assets/project/hulu-H.png'
-// import huluC from '../../assets/project/hulu-C.png'
-// import huluM from '../../assets/project/hulu-M.png'
-// import huluMM from '../../assets/project/hulu-MM.png'
-// import hulu1 from '../../assets/project/hulu-1.png'
-// import hulu2 from '../../assets/project/hulu-2.png'
-// import hulu3 from '../../assets/project/hulu-3.png'
+
 import hulu4 from '../../assets/project/hulu-4.png'
-// import spA from '../../assets/project/spotify-All.png'
-// import spF from '../../assets/project/spotify-F.png'
 import spFF from '../../assets/project/spotify-FF.png'
-// import pfC from '../../assets/project/pf-C.png'
 import pfC from '../../assets/project/ca.png'
-// import pfH from '../../assets/project/pf-H.png'
-// import dClock from '../../assets/project/dc.png'
-// import dClock1 from '../../assets/project/dc1.png'
-// import dClock2 from '../../assets/project/dc2.png'
 import bwe from '../../assets/project/bwe.png'
 import refrain from "../../assets/project/refrain.png";
 import mediSync from "../../assets/project/mediSync.png";
@@ -97,14 +84,11 @@ useEffect(() => {
               />
             </h1>
             <p>
-              Being an undergrad with Computer Science in major, I've worked on
-              multiple projects during my course based out of development / Web
-              Applications / Frontend / Backend. This is a fresh selection of my
-              latest projects!
+              I am an undergraduate student majoring in Electrical Engineering with a strong interest in applying technology to solve real-world problems. Throughout my academic journey, I have worked on projects ranging from circuit design and embedded systems to web applications and data-driven solutions. This is a selection of my latest projects that reflect both my technical skills and creativity.
               <br />
               <br />
               <a
-                href="https://github.com/LakshaySK106"
+                href="https://github.com/BhuwanSKumar"
                 target="_blank"
                 rel="noreferrer"
                 className="qView"
@@ -122,7 +106,7 @@ useEffect(() => {
               <React.Fragment key={i}>
                 <div className="magic-wall_item">
                   <a
-                    href="https://huloo-clone.netlify.app/"
+                    href="https://amazon-greenovate.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -131,7 +115,7 @@ useEffect(() => {
                 </div>
                 <div className="magic-wall_item">
                   <a
-                    href="https://spotify-now-playing-gold-seven.vercel.app/api/now-playing"
+                    href="https://sql-runner-bw8jkf6k6-bhuwanskumars-projects.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -149,7 +133,7 @@ useEffect(() => {
                 </div>{" "}
                 <div className="magic-wall_item">
                   <a
-                    href="https://group-patronage-plat.netlify.app/"
+                    href="https://swastikweb.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >

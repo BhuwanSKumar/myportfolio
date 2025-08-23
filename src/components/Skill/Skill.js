@@ -1,8 +1,8 @@
 import { React, useEffect, useState, useRef } from "react";
 import TagCloud from "TagCloud";
-import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
-import './Skill.scss'
-import { Outlet} from 'react-router-dom'
+import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
+import "./Skill.scss";
+import { Outlet } from "react-router-dom";
 
 function Skill() {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -79,32 +79,36 @@ function Skill() {
             />
           </h1>
           <p>
-            The main area of my expertise is full-stack web development(both
-            client and service side of the web).
+            {/* The main area of my expertise is full-stack web development(both
+            client and service side of the web). */}
             <br />
             <br />
-            - Over 5000 lines: C++, Python, C, JavaScript, TypeScript  
+            - Over 5000 lines: C++, Python, C, JavaScript, TypeScript
             <br />
             <br />
-            - Over 1000 lines: HTML5, CSS3, Tailwind CSS, Python, TypeScript  
+            - Over 1000 lines: HTML5, CSS3, Tailwind CSS, Python, TypeScript
             <br />
             <br />
-            - Web Development Libraries/Frameworks: React.js, Next.js, Node.js, Express.js, AngularJS, Bootstrap, Material UI  
+            - Web Development Libraries/Frameworks: React.js, Next.js, Node.js,
+            Express.js, AngularJS, Bootstrap, Material UI
             <br />
             <br />
-            - Familiar: MongoDB, PostgreSQL, MySQL, Swagger, RESTful APIs  
+            - Familiar: MongoDB, PostgreSQL, MySQL, Swagger, RESTful APIs
             <br />
             <br />
-            - Data & AI: Pandas, NumPy, Scikit-learn, Apache Spark, Deep Learning, NLP, Computer Vision, Generative AI, LLMs, Model Deployment  
+            - Data & AI: Pandas, NumPy, Scikit-learn, Apache Spark, Deep
+            Learning, NLP, Computer Vision, Generative AI, LLMs, Model
+            Deployment
             <br />
             <br />
-            - Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD (GitHub Actions), MLflow  
+            - Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD (GitHub
+            Actions), MLflow
             <br />
             <br />
-            - Tools: Git, Linux, Postman, Unit Testing  
+            - Tools: Git, Linux, Postman, Unit Testing
             <br />
             <br />
-            - Core CS Concepts: Data Structures & Algorithms, OOP, System Design  
+            - Core CS Concepts: Data Structures & Algorithms, OOP, System Design
             <br />
             <br />
 
@@ -117,7 +121,7 @@ function Skill() {
               >
                 Ciena{" "}
               </a>
-              &nbsp;-
+              &nbsp;
               {/* <div className="vertical-line"></div> */}
               - Software Engineering Intern (May 2025 - Aug 2025)
             </div>
@@ -136,6 +140,7 @@ function Skill() {
         </div>
         <Outlet />
         <span className="tags bottom-tags">
+          <br />
           &lt;/body&gt;
           <br />
           <span className="bottom-tag-html">&lt;/html&gt;</span>
@@ -146,4 +151,4 @@ function Skill() {
   );
 }
 
-export default Skill 
+export default Skill;
