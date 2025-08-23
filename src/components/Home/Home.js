@@ -11,7 +11,7 @@ import './Home.scss'
 function Home() {
    const [letterClass, setLetterClass] = useState('text-animate', 'text-animate-hover')
 
-   const nameArray = ['h', 'u', 'w', 'a', 'n,']
+   const nameArray = ['B', 'h', 'u', 'w', 'a', 'n,']
    const jobArray = [
       'w',
       'e',
@@ -46,7 +46,7 @@ function Home() {
              <br />
              <span className={`${letterClass} _13`}>I</span>
              <span className={`${letterClass} _14`}>'m</span>
-             <img src={logoName} alt="developer" />
+             {/* <img src={logoName} alt="developer" /> */}
              <AnimatedLetters
                letterClass={letterClass}
                strArray={nameArray}
