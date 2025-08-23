@@ -1,5 +1,5 @@
 import React from 'react'
-import logoName from '../../assets/images/logo-LLLL.png'
+// import logoName from '../../assets/images/logo-LLLL.png'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
@@ -46,7 +46,7 @@ function Home() {
              <br />
              <span className={`${letterClass} _13`}>I</span>
              <span className={`${letterClass} _14`}>'m</span>
-             <img src={logoName} alt="developer" />
+             {/* <img src={logoName} alt="developer" /> */}
              <AnimatedLetters
                letterClass={letterClass}
                strArray={nameArray}
