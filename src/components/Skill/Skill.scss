@@ -180,141 +180,44 @@ body {
  .gs-found {
    padding-top: 10px;
  }
-
- .content-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  font-family: sans-serif;
-  color: #fff;
-  position: relative;
-  animation: pulse 1s;
-
-  &:before {
-    content: '<div>';
-    font-family: 'La Belle Aurore', cursive;
-    color: #4e4a85;
-    font-size: 18px;
-    position: absolute;
-    top: -20px;
-    left: -10px;
-    opacity: 0.6;
-  }
-
-  &:after {
-    content: '</div>';
-    font-family: 'La Belle Aurore', cursive;
-    color: #4e4a85;
-    font-size: 18px;
-    position: absolute;
-    bottom: -20px;
-    left: -10px;
-    opacity: 0.6;
-  }
-}
-
-.section-title {
-  font-size: 24px;
+.skill-heading {
+  color: #4e4a85;
+  font-size: 20px;
+  margin-top: 18px;
   font-weight: 600;
-  color: #fff;
-  margin-bottom: 20px;
-  font-family: sans-serif;
-  position: relative;
-
-  &:before {
-    content: '<h3>';
-    font-family: 'La Belle Aurore', cursive;
-    color: #4e4a85;
-    font-size: 16px;
-    position: absolute;
-    left: -10px;
-    top: -18px;
-    opacity: 0.6;
-  }
-
-  &:after {
-    content: '</h3>';
-    font-family: 'La Belle Aurore', cursive;
-    color: #4e4a85;
-    font-size: 16px;
-    position: absolute;
-    left: -10px;
-    bottom: -18px;
-    opacity: 0.6;
-  }
 }
 
-.skills-section {
-  .skills-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-
-    .skill-item {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-
-      .skill-category {
-        font-weight: 600;
-        font-size: 16px;
-        color: #4e4a85;
-        font-family: sans-serif;
-      }
-
-      .skill-list {
-        font-size: 14px;
-        color: #fff;
-        line-height: 1.5;
-        margin-left: 10px;
-      }
-    }
-  }
+.skills-section p,
+.experience-section p {
+  font-size: 14px;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 5px 0 15px;
+  line-height: 1.5;
 }
 
 .experience-section {
-  .experience-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  margin-top: 30px;
+}
 
-    .experience-item {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
+.work-exp {
+  color: #4e4a85;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
 
-      .company-name {
-        font-size: 18px;
-        font-weight: 600;
-        color: #4e4a85;
-        text-decoration: none;
-        font-family: sans-serif;
-        transition: color 0.3s ease;
+.work-exp:hover {
+  color: #fff;
+  cursor: pointer;
+}
 
-        &:hover {
-          color: #fff;
-          cursor: pointer;
-        }
-      }
+.exp-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
 
-      .position-duration {
-        display: flex;
-        flex-direction: column;
-        gap: 2px;
-        margin-left: 10px;
-
-        .position {
-          font-size: 15px;
-          color: #fff;
-          font-weight: 500;
-        }
-
-        .duration {
-          font-size: 13px;
-          color: #ccc;
-          font-style: italic;
-        }
-      }
-    }
-  }
+.gs-found {
+  padding-top: 5px;
 }

@@ -1,42 +1,8 @@
-import { React, useEffect, useState, useRef } from "react";
-import TagCloud from "TagCloud";
-import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
-import './Skill.scss';
-import { Outlet } from 'react-router-dom';
+import React from "react";
+import AnimatedLetters from "../AnimatedLetters";
+import { Outlet } from "react-router-dom";
 
 function Skill() {
-  const [letterClass, setLetterClass] = useState("text-animate");
-  const contentRef = useRef(null);
-
-  useEffect(() => {
-    const myTags = [
-      "JavaScript", "TypeScript", "Python", "C++", "C",
-      "MySQL", "HTML5", "CSS3", "React.js", "Next.js",
-      "Node.js", "Express.js", "RESTful APIs", "MongoDB",
-      "PostgreSQL", "Machine Learning", "Pandas", "NumPy",
-      "Scikit-learn", "Apache Spark", "Power BI", "Tableau",
-      "AWS", "Azure", "Docker", "Kubernetes",
-    ];
-
-    const tagCloud = TagCloud(".content", myTags, {
-      radius: 300,
-      maxSpeed: "fast",
-      initSpeed: "fast",
-      direction: 135,
-      keep: true,
-    });
-
-    setTimeout(() => {
-      setLetterClass("text-animate-hover");
-    }, 4000);
-
-    return () => {
-      if (tagCloud && typeof tagCloud.destroy === "function") {
-        tagCloud.destroy();
-      }
-    };
-  }, []);
-
   return (
     <>
       <div className="container skill-page">
@@ -46,89 +12,90 @@ function Skill() {
         <div className="text-zone">
           <h1>
             <AnimatedLetters
-              letterClass={letterClass}
-              strArray={["S", "k", "i", "l", "l", "s", " ", "&"]}
+              letterClass="text-animate"
+              strArray={["S", "k", "i", "l", "l", "s"]}
               idx={15}
             />
             <br />
             <AnimatedLetters
-              letterClass={letterClass}
+              letterClass="text-animate"
               strArray={["E", "x", "p", "e", "r", "i", "e", "n", "c", "e"]}
               idx={22}
             />
           </h1>
 
-          <div className="content-container">
-            <div className="skills-section">
-              <h2 className="section-title">Skills</h2>
-              <div className="skills-grid">
-                <div className="skill-item">
-                  <span className="skill-category">Languages:</span>
-                  <span className="skill-list">C++, Python, JavaScript, TypeScript, C, SQL, Shell Scripting</span>
-                </div>
-                <div className="skill-item">
-                  <span className="skill-category">Web Development:</span>
-                  <span className="skill-list">React.js, Next.js, Node.js, Express.js, RESTful APIs, MongoDB, PostgreSQL, HTML5, CSS3</span>
-                </div>
-                <div className="skill-item">
-                  <span className="skill-category">Machine Learning & AI:</span>
-                  <span className="skill-list">Supervised & Unsupervised Learning, Deep Learning, NLP, Computer Vision, Generative AI & LLMs, Model Deployment</span>
-                </div>
-                <div className="skill-item">
-                  <span className="skill-category">Data Analytics & Visualization:</span>
-                  <span className="skill-list">Pandas, NumPy, Scikit-learn, Power BI, Tableau, Excel, EDA, Apache Spark</span>
-                </div>
-                <div className="skill-item">
-                  <span className="skill-category">Cloud and DevOps:</span>
-                  <span className="skill-list">AWS (EC2, S3, SageMaker), Azure, Docker, Kubernetes, CI/CD (GitHub Actions), MLflow</span>
-                </div>
-                <div className="skill-item">
-                  <span className="skill-category">Tools & Testing:</span>
-                  <span className="skill-list">Git, GitHub, Linux, Jupyter Notebook, VS Code, Postman, Unit Testing, Agile/Scrum</span>
-                </div>
-                <div className="skill-item">
-                  <span className="skill-category">CS Concepts:</span>
-                  <span className="skill-list">Data Structures & Algorithms, OOPS, OS, DBMS, Computer Networks, System Design</span>
-                </div>
-                <div className="skill-item">
-                  <span className="skill-category">Soft Skills:</span>
-                  <span className="skill-list">Problem-Solving, Analytical Thinking, Mentorship, Effective team communication, Bias for action</span>
-                </div>
-              </div>
-            </div>
+          {/* SKILLS */}
+          <div className="skills-section">
+            <h2 className="skill-heading">Languages</h2>
+            <p>C++, Python, JavaScript, TypeScript, C, SQL, Shell Scripting</p>
 
-            <div className="experience-section">
-              <h2 className="section-title">Experience</h2>
-              <div className="experience-grid">
-                <div className="experience-item">
-                  <a
-                    href="https://www.ciena.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="company-name"
-                  >
-                    Ciena
-                  </a>
-                  <div className="position-duration">
-                    <span className="position">Software Engineering Intern</span>
-                    <span className="duration">(May 2025 - Aug 2025)</span>
-                  </div>
-                </div>
-                <div className="experience-item">
-                  <a
-                    href="https://www.linkedin.com/company/girlscriptsoc/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="company-name"
-                  >
-                    GirlScript Foundation
-                  </a>
-                  <div className="position-duration">
-                    <span className="position">Project Administrator</span>
-                    <span className="duration">(Oct 2024 - Nov 2024)</span>
-                  </div>
-                </div>
-              </div>
+            <h2 className="skill-heading">Web Development</h2>
+            <p>
+              React.js, Next.js, Node.js, Express.js, RESTful APIs, MongoDB,
+              PostgreSQL, HTML5, CSS3
+            </p>
+
+            <h2 className="skill-heading">Machine Learning & AI</h2>
+            <p>
+              Supervised & Unsupervised Learning, Deep Learning, NLP, Computer
+              Vision, Generative AI & LLMs, Model Deployment
+            </p>
+
+            <h2 className="skill-heading">Data Analytics & Visualization</h2>
+            <p>
+              Pandas, NumPy, Scikit-learn, Power BI, Tableau, Excel, EDA, Apache
+              Spark
+            </p>
+
+            <h2 className="skill-heading">Cloud & DevOps</h2>
+            <p>
+              AWS (EC2, S3, SageMaker), Azure, Docker, Kubernetes, CI/CD (GitHub
+              Actions), MLflow
+            </p>
+
+            <h2 className="skill-heading">Tools & Testing</h2>
+            <p>
+              Git, GitHub, Linux, Jupyter Notebook, VS Code, Postman, Unit
+              Testing, Agile/Scrum
+            </p>
+
+            <h2 className="skill-heading">CS Concepts</h2>
+            <p>
+              Data Structures & Algorithms, OOPS, OS, DBMS, Computer Networks,
+              System Design
+            </p>
+
+            <h2 className="skill-heading">Soft Skills</h2>
+            <p>
+              Problem-Solving, Analytical Thinking, Mentorship, Effective Team
+              Communication, Bias for Action
+            </p>
+          </div>
+
+          {/* EXPERIENCE */}
+          <div className="experience-section">
+            <h2 className="skill-heading">Experience</h2>
+            <div className="exp-flex">
+              <a
+                href="https://www.ciena.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="work-exp"
+              >
+                Ciena
+              </a>
+              &nbsp;- Software Engineering Intern (May 2025 - Aug 2025)
+            </div>
+            <div className="gs-found">
+              <a
+                href="https://www.linkedin.com/company/girlscriptsoc/"
+                target="_blank"
+                rel="noreferrer"
+                className="work-exp"
+              >
+                GirlScript Foundation
+              </a>
+              &nbsp;- Project Administrator (Oct 2024 - Nov 2024)
             </div>
           </div>
         </div>
@@ -142,7 +109,7 @@ function Skill() {
         </span>
       </div>
 
-      <div ref={contentRef} className="content"></div>
+      <div className="content"></div>
     </>
   );
 }
