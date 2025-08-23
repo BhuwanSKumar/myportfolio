@@ -67,7 +67,7 @@ function Sidebar() {
            <NavLink
              activeclassname="active"
              className="certificate-link"
-             to="/certificate"
+             to="/certificates"
            >
              <FontAwesomeIcon icon={faCertificate} color="#4d4d4e" />
            </NavLink>

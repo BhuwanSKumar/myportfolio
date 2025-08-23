@@ -5,9 +5,9 @@ import Home from './components/Home/Home'
 import Contact from './components/Contact/Contact'
 import About from './components/About/About'
 import Sidebar from './components/Sidebar/Sidebar'
-import Skill from './components/Skill/Skill';
-import Project from './components/Project/Project';
-import Certificates from './components/Certificates/Certificates';
+import Skill from './components/Skill/Skill'
+import Project from './components/Project/Project'
+import Certificates from './components/Certificates/Certificates'
 
 import {
   Routes,

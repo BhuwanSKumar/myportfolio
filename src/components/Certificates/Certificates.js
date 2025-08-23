@@ -182,8 +182,7 @@ useEffect(() => {
                     <img src={mediSync} alt="okimage" />
                   </a>
                 </div>
-                
-                
+                 
                 
               </React.Fragment>
             ))}
