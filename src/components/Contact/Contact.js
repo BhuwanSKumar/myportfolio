@@ -7,6 +7,8 @@ import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './Contact.scss'
 
+
+
 function Contact() {
    const [letterClass, setLetterClass] = useState('text-animate')
    const form = useRef()
@@ -104,12 +106,36 @@ function Contact() {
                   </span>
                </div>
                <div className="map-wrap">
-                  <MapContainer center={[23.54909, 87.29093]} zoom={15}>
-  <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-  <Marker position={[23.54909, 87.29093]} >
-                        <Popup>Bhuwan lives here, come over for a cup of coffee</Popup>
-                     </Marker>
-                  </MapContainer>
+                  <MapContainer
+  center={[23.54909, 87.29093]}
+  zoom={16}
+  scrollWheelZoom={false}
+  style={{ height: "100%", width: "100%", borderRadius: "12px", overflow: "hidden" }}
+>
+  {/* Dark basemap for modern look */}
+  <TileLayer
+    url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+    attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
+    subdomains="abcd"
+    maxZoom={20}
+  />
+
+  {/* Marker at Hall 1, NIT Durgapur */}
+  <Marker
+    position={[23.54909, 87.29093]}
+    icon={new L.Icon({
+      iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
+      iconSize: [35, 35],
+      iconAnchor: [17, 34],
+      popupAnchor: [0, -28],
+    })}
+  >
+    <Popup>
+      <strong>Hall 1, NIT Durgapur</strong> <br />
+      My current location
+    </Popup>
+  </Marker>
+</MapContainer>
                </div>
             </div>
 
