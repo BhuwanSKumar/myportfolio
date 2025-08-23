@@ -8,18 +8,6 @@ import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './Contact.scss'
 
 
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import L from "leaflet";
-import "leaflet/dist/leaflet.css";
-
-// Custom marker icon
-const customIcon = new L.Icon({
-  iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
-  iconSize: [35, 35],
-  iconAnchor: [17, 34],
-  popupAnchor: [0, -28],
-});
-
 function Contact() {
    const [letterClass, setLetterClass] = useState('text-animate')
    const form = useRef()
