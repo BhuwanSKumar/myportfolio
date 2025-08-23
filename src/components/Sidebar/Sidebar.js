@@ -64,7 +64,7 @@ function Sidebar() {
          <li>
            <a
              className="svg-B"
-             href="https://www.linkedin.com/in/lakshaysk106/"
+             href="https://www.linkedin.com/in/bhuwan-saretia/"
              target="_blank"
              rel="noreferrer"
            >
@@ -74,7 +74,7 @@ function Sidebar() {
          <li>
            <a
              className="svg-B"
-             href="https://github.com/LakshaySK106"
+             href="https://github.com/BhuwanSKumar"
              target="_blank"
              rel="noreferrer"
            >
@@ -84,7 +84,7 @@ function Sidebar() {
          <li>
            <a
              className="svg-B"
-             href="https://twitter.com/Lakshay123401"
+             href="https://x.com/imBhuwan_"
              rel="noreferrer"
              target="_blank"
            >
@@ -94,7 +94,7 @@ function Sidebar() {
          <li>
            <a
              className="svg-B"
-             href="https://www.instagram.com/laksh.ay_/"
+             href="https://www.instagram.com/bhuw_an_/"
              rel="noreferrer"
              target="_blank"
            >
