@@ -53,7 +53,7 @@ function Contact() {
                      />
                   </h1>
                   <p>
-                     I'm interested in freelance opportunities - especially ambitious or large projects. However, if you have other request or question, don't hesitate to use the form below.
+                     I'm interested in freelance opportunities, especially ambitious or large projects. However, if you have other request or question, don't hesitate to use the form below.
                   </p>
                   <div className="contact-form">
                      <form ref={form} onSubmit={sendEmail}>
@@ -94,7 +94,7 @@ function Contact() {
                <div className='info-map'>
                   Bhuwan
                   <br />
-                  Durgapur, West Bengal
+                  NIT Durgapur, West Bengal
                   <br />
                   India <br />
                   <br />
@@ -104,9 +104,9 @@ function Contact() {
                   </span>
                </div>
                <div className="map-wrap">
-                  <MapContainer center={[28.7495, 77.1184]} zoom={14.2}>
-                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                     <Marker position={[28.7495, 77.1184]} >
+                  <MapContainer center={[23.54909, 87.29093]} zoom={15}>
+  <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+  <Marker position={[23.54909, 87.29093]} >
                         <Popup>Bhuwan lives here, come over for a cup of coffee</Popup>
                      </Marker>
                   </MapContainer>

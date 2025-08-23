@@ -82,21 +82,30 @@ function Skill() {
             The main area of my expertise is full-stack web development(both
             client and service side of the web).
             <br />
+            <br />
             - Over 5000 lines: C++, Python, C, JavaScript, TypeScript  
+            <br />
             <br />
             - Over 1000 lines: HTML5, CSS3, Tailwind CSS, Python, TypeScript  
             <br />
+            <br />
             - Web Development Libraries/Frameworks: React.js, Next.js, Node.js, Express.js, AngularJS, Bootstrap, Material UI  
+            <br />
             <br />
             - Familiar: MongoDB, PostgreSQL, MySQL, Swagger, RESTful APIs  
             <br />
+            <br />
             - Data & AI: Pandas, NumPy, Scikit-learn, Apache Spark, Deep Learning, NLP, Computer Vision, Generative AI, LLMs, Model Deployment  
+            <br />
             <br />
             - Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD (GitHub Actions), MLflow  
             <br />
+            <br />
             - Tools: Git, Linux, Postman, Unit Testing  
             <br />
+            <br />
             - Core CS Concepts: Data Structures & Algorithms, OOP, System Design  
+            <br />
             <br />
 
             <div className="exp-flex">
@@ -108,9 +117,9 @@ function Skill() {
               >
                 Ciena{" "}
               </a>
-              &nbsp;-
-              <div className="vertical-line"></div>
-              Software Engineering Intern (May 2025 - Aug 2025)
+              {/* &nbsp;- */}
+              {/* <div className="vertical-line"></div> */}
+              - Software Engineering Intern (May 2025 - Aug 2025)
             </div>
             <div className="gs-found">
               <a
