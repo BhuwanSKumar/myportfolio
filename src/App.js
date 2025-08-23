@@ -7,7 +7,7 @@ import About from './components/About/About'
 import Sidebar from './components/Sidebar/Sidebar'
 import Skill from './components/Skill/Skill';
 import Project from './components/Project/Project';
-import Certificate from './components/Certificate/Certificate';
+import Certificates from './components/Certificates/Certificates';
 
 import {
   Routes,
@@ -27,7 +27,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/skill" element={<Skill />} />
         <Route path="/project" element={<Project />} />
-        <Route path="/certificate" element={<Certificate />} />
+        <Route path="/certificates" element={<Certificates />} />
       </Routes>
     </>
   );
