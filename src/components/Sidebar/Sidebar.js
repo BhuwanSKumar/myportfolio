@@ -5,7 +5,7 @@ import LogoN from '../../assets/images/logo-L.png'
 import LogoName from '../../assets/images/logo_namee.png'
 import WebD from '../../assets/images/logo_web.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUserAstronaut, faContactCard, faComputer, faProjectDiagram} from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUserAstronaut, faContactCard, faComputer, faProjectDiagram, faCertificate} from '@fortawesome/free-solid-svg-icons'
 import {
    faLinkedin,
    faGithub,
