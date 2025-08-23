@@ -46,6 +46,7 @@ function Home() {
              <br />
              <span className={`${letterClass} _13`}>I</span>
              <span className={`${letterClass} _14`}>'m</span>
+             <span className={`${letterClass} _14`}> </span>
              {/* <img src={logoName} alt="developer" /> */}
              <AnimatedLetters
                letterClass={letterClass}
