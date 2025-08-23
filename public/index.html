@@ -2,68 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-
-    <!-- Favicon -->
     <link rel="icon" href="./favicon.png" />
-
-    <!-- Viewport Settings -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Theme Color -->
-    <meta name="theme-color" content="#0a192f" />
-
-    <!-- SEO Meta Tags -->
+    <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Portfolio of Bhuwan | Software Developer | Full Stack Engineer | Passionate about AI, Cloud, and Automation."
+      content="Web site created using create-react-app"
     />
-    <meta
-      name="keywords"
-      content="Bhuwan, Portfolio, Software Developer, Full Stack Developer, React, Node.js, Python, Cloud, AI"
-    />
-    <meta name="author" content="Bhuwan" />
-
-    <!-- Apple Touch Icon -->
     <link rel="apple-touch-icon" href="./logo-LLL.png" />
-
-    <!-- PWA Manifest -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
-    <!-- External CSS (Leaflet for maps if needed) -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-      crossorigin=""
-    />
-
-    <!-- Page Title -->
+      crossorigin="" />
     <title>My, Myself & I | Bhuwan</title>
   </head>
-
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-
-    <!-- EmailJS for contact form -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
     <script type="text/javascript">
       (function () {
-        emailjs.init("YOUR_EMAILJS_PUBLIC_KEY"); // Replace with your EmailJS key
+        emailjs.init("{}");
       })();
     </script>
-
-    <!-- Leaflet Maps (if using maps section) -->
-    <script
-      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
       integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
-      crossorigin=""
-    ></script>
-
-    <!-- TagCloud (for skills animation) -->
+      crossorigin=""></script>
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
   </body>
 </html>

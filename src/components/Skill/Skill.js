@@ -12,23 +12,31 @@ function Skill() {
   useEffect(() => {
     const myTags = [
       "JavaScript",
-      "CSS",
-      "HTML",
-      "C",
-      "C++",
-      "React",
-      "Python",
-      "Java",
-      "git",
-      "Express.js",
-      "Node.js",
-      "MongoDB",
       "TypeScript",
+      "Python",
+      "C++",
+      "C",
       "MySQL",
-      "jQuery",
-      "AngularJS",
-      "Spring Boot",
-      "Rest Services",
+      "HTML5",
+      "CSS3",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "RESTful APIs",
+      "MongoDB",
+      "PostgreSQL",
+      "Machine Learning",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Apache Spark",
+      "Power BI",
+      "Tableau",
+      "AWS",
+      "Azure",
+      "Docker",
+      "Kubernetes",
     ];
 
     var tagCloud = TagCloud(".content", myTags, {
@@ -74,32 +82,35 @@ function Skill() {
             The main area of my expertise is full-stack web development(both
             client and service side of the web).
             <br />
+            - Over 5000 lines: C++, Python, C, JavaScript, TypeScript  
             <br />
-            - Over 5000 lines: C++, C, JavaScript
+            - Over 1000 lines: HTML5, CSS3, Tailwind CSS, Python, TypeScript  
             <br />
-            - Over 1000 lines: Python, HTML, CSS, TypeScript, Tailwind CSS
+            - Web Development Libraries/Frameworks: React.js, Next.js, Node.js, Express.js, AngularJS, Bootstrap, Material UI  
             <br />
-            - Web Development Libraries/Frameworks: React, AngularJS,
-            Express.js, Bootstrap, Node.js, MaterialUI
+            - Familiar: MongoDB, PostgreSQL, MySQL, Swagger, RESTful APIs  
             <br />
-            - Familiar: MongoDB, MySQL, Sybase, Swagger, Rest Services
+            - Data & AI: Pandas, NumPy, Scikit-learn, Apache Spark, Deep Learning, NLP, Computer Vision, Generative AI, LLMs, Model Deployment  
             <br />
+            - Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD (GitHub Actions), MLflow  
             <br />
+            - Tools: Git, Linux, Postman, Unit Testing  
+            <br />
+            - Core CS Concepts: Data Structures & Algorithms, OOP, System Design  
+            <br />
+
             <div className="exp-flex">
               <a
-                href="https://www.linkedin.com/company/morgan-stanley/mycompany/"
+                href="https://www.ciena.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="work-exp"
               >
-                Morgan Stanley{" "}
+                Ciena{" "}
               </a>
               &nbsp;-
               <div className="vertical-line"></div>
-              Technology Analyst (Aug 2024 - Present)
-              <br />
-              <br />
-              Technology Spring Analyst (Jan 2024 - July 2024)
+              Software Engineering Intern (May 2025 - Aug 2025)
             </div>
             <div className="gs-found">
               <a
@@ -110,7 +121,7 @@ function Skill() {
               >
                 GirlScript Foundation{" "}
               </a>
-              - Project Administrator (May 2023 - Aug 2023)
+              - Project Administrator (Oct 2024 - Nov 2024)
             </div>
           </p>
         </div>

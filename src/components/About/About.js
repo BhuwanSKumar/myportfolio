@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './About.scss'
 import { Outlet, Link } from 'react-router-dom'
@@ -8,12 +9,10 @@ function About() {
    const [letterClass, setLetterClass] = useState('text-animate')
 
    useEffect(() => {
-      const timer = setTimeout(() => {
+      setTimeout(() => {
          setLetterClass('text-animate-hover')
       }, 3300)
-      return () => clearTimeout(timer)
    }, [])
-
    return (
       <div className="container about-page">
          <div className="page">
@@ -24,51 +23,34 @@ function About() {
                <h1>
                   <AnimatedLetters
                      letterClass={letterClass}
-                     strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']}
+                     strArray={['M', 'y', ',', ' ', 'M', 'y', 's', 'e', 'l', 'f', ' ', '&', ' ', 'I']}
                      idx={15}
                   />
                </h1>
-
-               <p>
-                  I'm <strong>Bhuwan</strong>, a passionate <strong>Software Developer</strong>, 
-                  <strong> Full Stack Engineer</strong>, and <strong>Competitive Programmer</strong> 
-                  pursuing my <strong>B.Tech in Electrical Engineering at NIT Durgapur</strong>.
-                  <br /><br />
-                  I enjoy building scalable web applications, working with 
-                  <strong> React, Node.js, Python, and Cloud-native technologies</strong>, 
-                  and solving real-world problems with automation and optimization.
-                  <br /><br />
-                  I’m well-organised, self-driven, and detail-oriented. Outside of coding, 
-                  I enjoy exploring new tech, contributing to open source, and keeping up 
-                  with the latest in AI and cloud innovations.
-                  <br /><br />
-                  Always open to collaboration and ambitious projects with positive, like-minded people.  
-                  <Link to="/contact" className="reach">
-                     Reach out to me!
+               <p>I'm a Full Stack Web Developer, Competitive Programmer and an undergrad at National Institute of Technology, Durgapur located in Durgapur, West Bengal, India. I've a serious passion for problem solving, UI effects, animations and creating intuitive, dynamic user experiences.
+                  <br />
+                  <br />
+                  Well-organised, self-motivated and creative person with high attention to detail. Travel freak, fan of English lit, FSOG and FSD soundtracks, and love various physical pursuits against the run of play with excercise control in all things.
+                  <br />
+                  <br />
+                  Interested in open code contributions and working on ambitious projects with positive people.
+                  <Link to="/contact" className='reach'>
+                  Reach out to me!
                   </Link>
                </p>
-
                <div className="myCv">
-                  <div className='rtext'>My Resume</div>
-                  <div className='okay'>
-                     <a 
-                        href="https://drive.google.com/file/d/YOUR_RESUME_LINK/view?usp=sharing" 
-                        target="__blank" 
-                        rel="noreferrer"
-                     >
-                        CLICK HERE TO VIEW PDF
-                     </a>
-                  </div>
+                     <div className='rtext'>My Resume</div>
+                  <div className='okay'><a href="https://drive.google.com/file/d/1fHKgJ1wfQEkTLtRT3oMHFmemGbXnRBaM/view?usp=share_link" target="__blank">CLICK HERE TO VIEW PDF</a></div>
                </div>
             </div>
-
+            
             <Outlet />
             <span className="tags bottom-tags">
                &lt;/body&gt;
                <br />
                <span className="bottom-tag-html">&lt;/html&gt;</span>
             </span>
-         </div>
+         </div> 
       </div>
    )
 }
