@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState, useRef } from "react";
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
-import './Project.scss'
+import './Certificates.scss'
 import { Outlet } from 'react-router-dom'
 
 import hulu4 from '../../assets/project/hulu-4.png'
