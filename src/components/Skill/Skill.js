@@ -1,45 +1,24 @@
 import { React, useEffect, useState, useRef } from "react";
 import TagCloud from "TagCloud";
-import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
-import './Skill.scss'
-import { Outlet} from 'react-router-dom'
+import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
+import './Skill.scss';
+import { Outlet } from 'react-router-dom';
 
 function Skill() {
   const [letterClass, setLetterClass] = useState("text-animate");
-
   const contentRef = useRef(null);
 
   useEffect(() => {
     const myTags = [
-      "JavaScript",
-      "TypeScript",
-      "Python",
-      "C++",
-      "C",
-      "MySQL",
-      "HTML5",
-      "CSS3",
-      "React.js",
-      "Next.js",
-      "Node.js",
-      "Express.js",
-      "RESTful APIs",
-      "MongoDB",
-      "PostgreSQL",
-      "Machine Learning",
-      "Pandas",
-      "NumPy",
-      "Scikit-learn",
-      "Apache Spark",
-      "Power BI",
-      "Tableau",
-      "AWS",
-      "Azure",
-      "Docker",
-      "Kubernetes",
+      "JavaScript", "TypeScript", "Python", "C++", "C",
+      "MySQL", "HTML5", "CSS3", "React.js", "Next.js",
+      "Node.js", "Express.js", "RESTful APIs", "MongoDB",
+      "PostgreSQL", "Machine Learning", "Pandas", "NumPy",
+      "Scikit-learn", "Apache Spark", "Power BI", "Tableau",
+      "AWS", "Azure", "Docker", "Kubernetes",
     ];
 
-    var tagCloud = TagCloud(".content", myTags, {
+    const tagCloud = TagCloud(".content", myTags, {
       radius: 300,
       maxSpeed: "fast",
       initSpeed: "fast",
@@ -78,72 +57,94 @@ function Skill() {
               idx={22}
             />
           </h1>
-          <p>
-            The main area of my expertise is full-stack web development(both
-            client and service side of the web).
-            <br />
-            <br />
-            - Over 5000 lines: C++, Python, C, JavaScript, TypeScript  
-            <br />
-            <br />
-            - Over 1000 lines: HTML5, CSS3, Tailwind CSS, Python, TypeScript  
-            <br />
-            <br />
-            - Web Development Libraries/Frameworks: React.js, Next.js, Node.js, Express.js, AngularJS, Bootstrap, Material UI  
-            <br />
-            <br />
-            - Familiar: MongoDB, PostgreSQL, MySQL, Swagger, RESTful APIs  
-            <br />
-            <br />
-            - Data & AI: Pandas, NumPy, Scikit-learn, Apache Spark, Deep Learning, NLP, Computer Vision, Generative AI, LLMs, Model Deployment  
-            <br />
-            <br />
-            - Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD (GitHub Actions), MLflow  
-            <br />
-            <br />
-            - Tools: Git, Linux, Postman, Unit Testing  
-            <br />
-            <br />
-            - Core CS Concepts: Data Structures & Algorithms, OOP, System Design  
-            <br />
-            <br />
 
-            <div className="exp-flex">
-              <a
-                href="https://www.ciena.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="work-exp"
-              >
-                Ciena{" "}
-              </a>
-              {/* &nbsp;- */}
-              {/* <div className="vertical-line"></div> */}
-              - Software Engineering Intern (May 2025 - Aug 2025)
+          <div className="content-container">
+            <div className="skills-section">
+              <h2 className="section-title">Skills</h2>
+              <div className="skills-grid">
+                <div className="skill-item">
+                  <span className="skill-category">Languages:</span>
+                  <span className="skill-list">C++, Python, JavaScript, TypeScript, C, SQL, Shell Scripting</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-category">Web Development:</span>
+                  <span className="skill-list">React.js, Next.js, Node.js, Express.js, RESTful APIs, MongoDB, PostgreSQL, HTML5, CSS3</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-category">Machine Learning & AI:</span>
+                  <span className="skill-list">Supervised & Unsupervised Learning, Deep Learning, NLP, Computer Vision, Generative AI & LLMs, Model Deployment</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-category">Data Analytics & Visualization:</span>
+                  <span className="skill-list">Pandas, NumPy, Scikit-learn, Power BI, Tableau, Excel, EDA, Apache Spark</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-category">Cloud and DevOps:</span>
+                  <span className="skill-list">AWS (EC2, S3, SageMaker), Azure, Docker, Kubernetes, CI/CD (GitHub Actions), MLflow</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-category">Tools & Testing:</span>
+                  <span className="skill-list">Git, GitHub, Linux, Jupyter Notebook, VS Code, Postman, Unit Testing, Agile/Scrum</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-category">CS Concepts:</span>
+                  <span className="skill-list">Data Structures & Algorithms, OOPS, OS, DBMS, Computer Networks, System Design</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-category">Soft Skills:</span>
+                  <span className="skill-list">Problem-Solving, Analytical Thinking, Mentorship, Effective team communication, Bias for action</span>
+                </div>
+              </div>
             </div>
-            <div className="gs-found">
-              <a
-                href="https://www.linkedin.com/company/girlscriptsoc/"
-                target="_blank"
-                rel="noreferrer"
-                className="work-exp "
-              >
-                GirlScript Foundation{" "}
-              </a>
-              - Project Administrator (Oct 2024 - Nov 2024)
+
+            <div className="experience-section">
+              <h2 className="section-title">Experience</h2>
+              <div className="experience-grid">
+                <div className="experience-item">
+                  <a
+                    href="https://www.ciena.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="company-name"
+                  >
+                    Ciena
+                  </a>
+                  <div className="position-duration">
+                    <span className="position">Software Engineering Intern</span>
+                    <span className="duration">(May 2025 - Aug 2025)</span>
+                  </div>
+                </div>
+                <div className="experience-item">
+                  <a
+                    href="https://www.linkedin.com/company/girlscriptsoc/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="company-name"
+                  >
+                    GirlScript Foundation
+                  </a>
+                  <div className="position-duration">
+                    <span className="position">Project Administrator</span>
+                    <span className="duration">(Oct 2024 - Nov 2024)</span>
+                  </div>
+                </div>
+              </div>
             </div>
-          </p>
+          </div>
         </div>
+
         <Outlet />
+
         <span className="tags bottom-tags">
           &lt;/body&gt;
           <br />
           <span className="bottom-tag-html">&lt;/html&gt;</span>
         </span>
       </div>
+
       <div ref={contentRef} className="content"></div>
     </>
   );
 }
 
-export default Skill 
+export default Skill;
