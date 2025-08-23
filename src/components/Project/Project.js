@@ -12,8 +12,6 @@ import refrain from "../../assets/project/refrain.png";
 import mediSync from "../../assets/project/mediSync.png";
 import groupPat from "../../assets/project/groupPat.png";
 import markMyFace from "../../assets/project/markMyFace.png";
-import eventMmt from "../../assets/project/eventMmt.png";
-import dClock from "../../assets/project/dClock.png";
 
 function Project() {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -113,6 +111,28 @@ useEffect(() => {
                     <img src={hulu4} alt="okimage" />
                   </a>
                 </div>
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://github.com/BhuwanSKumar/contact_management"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={markMyFace} alt="okimage" />
+                  </a>
+                </div>
+
+                 <div className="magic-wall_item">
+                  <a
+                    href="https://github.com/BhuwanSKumar/Sanjeevani.ai"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={pfC} alt="okimage" />
+                  </a>
+                </div>
+
+
                 <div className="magic-wall_item">
                   <a
                     href="https://sql-runner-bw8jkf6k6-bhuwanskumars-projects.vercel.app/"
@@ -122,6 +142,17 @@ useEffect(() => {
                     <img src={spFF} alt="okimage" />
                   </a>
                 </div>
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://github.com/BhuwanSKumar/remedy.ai-web"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={bwe} alt="okimage" />
+                  </a>
+                </div>
+
                 <div className="magic-wall_item">
                   <a
                     href="https://refrain-addiction.netlify.app/"
@@ -140,60 +171,20 @@ useEffect(() => {
                     <img src={groupPat} alt="okimage" />
                   </a>
                 </div>
+               
+                
                 <div className="magic-wall_item">
                   <a
-                    href="https://codes-anywhere.herokuapp.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={pfC} alt="okimage" />
-                  </a>
-                </div>
-                <div className="magic-wall_item">
-                  <a
-                    href="https://github.com/LakshaySK106/Blocking-Web-ETE"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={bwe} alt="okimage" />
-                  </a>
-                </div>
-                <div className="magic-wall_item">
-                  <a
-                    href="https://bnb-phr.netlify.app/"
+                    href="https://github.com/BhuwanSKumar/smart-issue-management-system"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <img src={mediSync} alt="okimage" />
                   </a>
                 </div>
-                <div className="magic-wall_item">
-                  <a
-                    href="https://github.com/LakshaySK106/markMyFace"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={markMyFace} alt="okimage" />
-                  </a>
-                </div>
-                <div className="magic-wall_item">
-                  <a
-                    href="https://github.com/LakshaySK106/Digital-Clock"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={dClock} alt="okimage" />
-                  </a>
-                </div>
-                <div className="magic-wall_item">
-                  <a
-                    href="https://github.com/LakshaySK106/Event-Management-System"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={eventMmt} alt="okimage" />
-                  </a>
-                </div>
+                
+                
+                
               </React.Fragment>
             ))}
           </div>
