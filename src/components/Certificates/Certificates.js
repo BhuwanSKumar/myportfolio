@@ -4,14 +4,18 @@ import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './Certificates.scss'
 import { Outlet } from 'react-router-dom'
 
-import hulu4 from '../../assets/project/hulu-4.png'
-import spFF from '../../assets/project/spotify-FF.png'
-import pfC from '../../assets/project/ca.png'
-import bwe from '../../assets/project/bwe.png'
-import refrain from "../../assets/project/refrain.png";
-import mediSync from "../../assets/project/mediSync.png";
-import groupPat from "../../assets/project/groupPat.png";
-import markMyFace from "../../assets/project/markMyFace.png";
+import aws from '../../assets/certificates/aws.png'
+import adobe from '../../assets/certificates/adobe.png'
+import forage from '../../assets/certificates/forage.png'
+import neo4j from '../../assets/certificates/neo4j.png'
+import freecodecamp from '../../assets/certificates/freecodecamp.png'
+import neo4jM from '../../assets/certificates/neo4jM.png'
+import mHackerCup from '../../assets/certificates/mHackerCup.png'
+import walmart from '../../assets/certificates/walmart.png'
+import badgr from '../../assets/certificates/badgr.png'
+import cloudSkillsBoost from '../../assets/certificates/cloudSkillsBoost.png'
+
+
 
 function Project() {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -69,24 +73,28 @@ useEffect(() => {
                   "M",
                   "y",
                   " ",
-                  "P",
-                  "r",
-                  "o",
-                  "j",
-                  "e",
-                  "c",
-                  "t",
-                  "s",
+                  "C",
+                  "E",
+                  "R",
+                  "T",
+                  "I",
+                  "F",
+                  "I",
+                  "C",
+                  "A",
+                  "T",
+                  "E",
+                  "S",
                 ]}
                 idx={15}
               />
             </h1>
             <p>
-              Being an undergraduate majoring in Electrical Engineering, I have actively explored software development and worked on multiple projects in web applications, frontend, and backend. This is a fresh selection of my latest projects that reflect my passion for building impactful software solutions!
+              Alongside my academic journey, I have earned multiple industry-recognized certificates. These certifications reflect my continuous learning and commitment to building strong technical foundations.
               <br />
               <br />
               <a
-                href="https://github.com/BhuwanSKumar"
+                href="https://www.linkedin.com/in/bhuwan-saretia/details/certifications/"
                 target="_blank"
                 rel="noreferrer"
                 className="qView"
@@ -102,88 +110,109 @@ useEffect(() => {
           >
             {[...Array(50)].map((_, i) => (
               <React.Fragment key={i}>
+
                 <div className="magic-wall_item">
                   <a
-                    href="https://amazon-greenovate.netlify.app/"
+                    href="https://www.credly.com/badges/687763ee-93d2-418d-9234-ed2853f823e2"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={hulu4} alt="okimage" />
+                    <img src={aws} alt="okimage" />
                   </a>
                 </div>
 
                 <div className="magic-wall_item">
                   <a
-                    href="https://github.com/BhuwanSKumar/contact_management"
+                    href="https://drive.google.com/file/d/1A-rnwh_ZfbVpHU1QjIKh0U1IeuSpBg8S/view"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={markMyFace} alt="okimage" />
+                    <img src={adobe} alt="okimage" />
                   </a>
                 </div>
 
-                 <div className="magic-wall_item">
+                <div className="magic-wall_item">
                   <a
-                    href="https://github.com/BhuwanSKumar/Sanjeevani.ai"
+                    href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_Msi482QM3TsSodhna_1752221135302_completion_certificate.pdf"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={pfC} alt="okimage" />
+                    <img src={forage} alt="okimage" />
+                  </a>
+                </div>
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://graphacademy.neo4j.com/c/2b46210e-b948-4fdd-99cf-73979fa3583a/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={neo4j} alt="okimage" />
+                  </a>
+                </div>
+
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://www.freecodecamp.org/certification/BhuwanSKumar/responsive-web-design"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={freecodecamp} alt="okimage" />
                   </a>
                 </div>
 
 
                 <div className="magic-wall_item">
                   <a
-                    href="https://sql-runner-bw8jkf6k6-bhuwanskumars-projects.vercel.app/"
+                    href="https://graphacademy.neo4j.com/c/ea3989e3-3177-44f5-bf4f-526d2e4189dc/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={spFF} alt="okimage" />
+                    <img src={neo4jM} alt="okimage" />
                   </a>
                 </div>
 
                 <div className="magic-wall_item">
                   <a
-                    href="https://github.com/BhuwanSKumar/remedy.ai-web"
+                    href="https://drive.google.com/file/d/1F31CGpoOR37XLlOztyOLWk24pOHzRHzv/view"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={bwe} alt="okimage" />
+                    <img src={mHackerCup} alt="okimage" />
                   </a>
                 </div>
 
                 <div className="magic-wall_item">
                   <a
-                    href="https://refrain-addiction.netlify.app/"
+                    href="https://drive.google.com/file/d/10edwkBh3if6gDcupjhjw8Gpean4PU39-/view"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={refrain} alt="okimage" />
-                  </a>
-                </div>{" "}
-                <div className="magic-wall_item">
-                  <a
-                    href="https://swastikweb.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={groupPat} alt="okimage" />
+                    <img src={walmart} alt="okimage" />
                   </a>
                 </div>
-               
-                
+
                 <div className="magic-wall_item">
                   <a
-                    href="https://github.com/BhuwanSKumar/smart-issue-management-system"
+                    href="https://badgr.com/public/assertions/90Ii88jIRi6Fk7BmjoSd2Q?identity__email=engbhuwansd%40gmail.com"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={mediSync} alt="okimage" />
+                    <img src={badgr} alt="okimage" />
                   </a>
                 </div>
-                 
-                
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://www.cloudskillsboost.google/public_profiles/817e8207-4a21-439a-afa7-864064b0fa5d/badges/9793516?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={cloudSkillsBoost} alt="okimage" />
+                  </a>
+                </div>
+
               </React.Fragment>
             ))}
           </div>

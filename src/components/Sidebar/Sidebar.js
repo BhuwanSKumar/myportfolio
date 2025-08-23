@@ -55,6 +55,17 @@ function Sidebar() {
          <div className="nav-item">
            <NavLink
              activeclassname="active"
+             className="certificate-link"
+             to="/certificates"
+           >
+             <FontAwesomeIcon icon={faCertificate} color="#4d4d4e" />
+           </NavLink>
+         </div>
+
+
+         <div className="nav-item">
+           <NavLink
+             activeclassname="active"
              className="contact-link"
              to="/contact"
            >
@@ -63,16 +74,7 @@ function Sidebar() {
              <div className="horizontal-line" />
          </div>
 
-         <div className="nav-item">
-           <NavLink
-             activeclassname="active"
-             className="certificate-link"
-             to="/certificates"
-           >
-             <FontAwesomeIcon icon={faCertificate} color="#4d4d4e" />
-           </NavLink>
-         </div>
-
+         
         
 
        </nav>
