@@ -28,7 +28,7 @@ body {
    opacity: 0.6;
    position: absolute;
    bottom: 0;
-   left: 150px;
+   left: 120px;
    font-size: 18px;
    font-family: 'La Belle Aurore', cursive;
 }
@@ -42,8 +42,8 @@ body {
    .text-zone {
       position: absolute;
       left: 8vw;
-      top: 25vh;
-      transform: translateY(-25%);
+      top: 15vh;
+      transform: translateY(-15%);
       width: 45%;
       max-height: 90vh;
       overflow-y: auto;
@@ -69,7 +69,7 @@ body {
             left: 0px;
             opacity: 0.6;
             line-height: 20px;
-            bottom: 93px;
+            bottom: 75px;
          }
 
          &:after {
@@ -80,14 +80,14 @@ body {
             line-height: 18px;
             position: absolute;
             left: -20px;
-            bottom: -23px;
+            bottom: -15px;
             margin-left: 20px;
             opacity: 0.6;
          }
       }
 
       .experience-heading {
-         margin-top: 50px;
+         margin-top: 30px;
          margin-bottom: 25px;
          
          &:before {
@@ -96,10 +96,10 @@ body {
             color: #4e4a85;
             font-size: 18px;
             position: absolute;
-            left: -10px;
+            left: 0px;
             opacity: 0.6;
             line-height: 20px;
-            bottom: 93px;
+            bottom: 75px;
          }
 
          &:after {
@@ -109,8 +109,8 @@ body {
             font-size: 18px;
             line-height: 18px;
             position: absolute;
-            left: -30px;
-            bottom: -23px;
+            left: -20px;
+            bottom: -15px;
             margin-left: 20px;
             opacity: 0.6;
          }
@@ -130,8 +130,8 @@ body {
             color: #4e4a85;
             font-size: 18px;
             position: absolute;
-            margin-top: -16px;
-            left: -10px;
+            margin-top: -10px;
+            left: 0px;
             opacity: 0.6;
             line-height: 18px;
          }
@@ -144,7 +144,7 @@ body {
             line-height: 18px;
             position: relative;
             display: block;
-            left: -11px;
+            left: -1px;
             bottom: -3px;
             opacity: 0.6;
          }
@@ -179,7 +179,7 @@ body {
  .content {
    position: absolute;
    top: 50%;
-   right: 0;
+   right: 2%;
    transform: translateY(-50%);
    text-align: center;
    width: 40%;
