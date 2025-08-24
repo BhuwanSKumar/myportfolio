@@ -14,6 +14,9 @@ import mHackerCup from '../../assets/certificates/mHackerCup.png'
 import walmart from '../../assets/certificates/walmart.png'
 import badgr from '../../assets/certificates/badgr.png'
 import cloudSkillsBoost from '../../assets/certificates/cloudSkillsBoost.png'
+import amazonHackon4 from '../../assets/certificates/amazonHackon4.png'
+import hackerrank1 from '../../assets/certificates/hackerrank1.png'
+import hackerrank2 from '../../assets/certificates/hackerrank2.png'
 
 
 
@@ -215,7 +218,36 @@ useEffect(() => {
                   </a>
                 </div>
 
+                <div className="magic-wall_item">
+                  <a
+                    href="https://unstop.com/certificate-preview/375994ed-db06-4f71-8efb-7dd82d972481?utm_campaign="
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={amazonHackon4} alt="okimage" />
+                  </a>
+                </div>
                 
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://www.hackerrank.com/certificates/iframe/d6bde98fe960"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={hackerrank1} alt="okimage" />
+                  </a>
+                </div>
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://www.hackerrank.com/certificates/iframe/b2c026e20a8b"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={hackerrank2} alt="okimage" />
+                  </a>
+                </div>
 
               </React.Fragment>
             ))}
