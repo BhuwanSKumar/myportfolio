@@ -41,7 +41,7 @@ body {
   
    .text-zone {
       position: absolute;
-      left: 10vw;
+      left: 8vw;
       top: 25vh;
       transform: translateY(-25%);
       width: 45%;
@@ -58,7 +58,7 @@ body {
          margin-top: 0;
          position: relative;
          margin-bottom: 25px;
-         left: -10px;
+         left: 0px;
 
          &:before {
             content: '<h2>';
@@ -66,7 +66,7 @@ body {
             color: #4e4a85;
             font-size: 18px;
             position: absolute;
-            left: -10px;
+            left: 0px;
             opacity: 0.6;
             line-height: 20px;
             bottom: 93px;
@@ -79,7 +79,7 @@ body {
             font-size: 18px;
             line-height: 18px;
             position: absolute;
-            left: -30px;
+            left: -20px;
             bottom: -23px;
             margin-left: 20px;
             opacity: 0.6;
