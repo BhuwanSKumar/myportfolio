@@ -17,6 +17,8 @@ import cloudSkillsBoost from '../../assets/certificates/cloudSkillsBoost.png'
 import amazonHackon4 from '../../assets/certificates/amazonHackon4.png'
 import hackerrank1 from '../../assets/certificates/hackerrank1.png'
 import hackerrank2 from '../../assets/certificates/hackerrank2.png'
+import hackerrank3 from '../../assets/certificates/hackerrank3.png'
+import internshala from '../../assets/certificates/internshala.png'
 
 
 
@@ -134,16 +136,7 @@ useEffect(() => {
                   </a>
                 </div>
 
-                <div className="magic-wall_item">
-                  <a
-                    href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_Msi482QM3TsSodhna_1752221135302_completion_certificate.pdf"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={forage} alt="okimage" />
-                  </a>
-                </div>
-
+               
                 <div className="magic-wall_item">
                   <a
                     href="https://graphacademy.neo4j.com/c/2b46210e-b948-4fdd-99cf-73979fa3583a/"
@@ -200,6 +193,16 @@ useEffect(() => {
 
                 <div className="magic-wall_item">
                   <a
+                    href="https://www.hackerrank.com/certificates/43c644e7a67b"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={hackerrank3} alt="okimage" />
+                  </a>
+                </div>
+
+                <div className="magic-wall_item">
+                  <a
                     href="https://www.cloudskillsboost.google/public_profiles/817e8207-4a21-439a-afa7-864064b0fa5d/badges/9793516?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
                     target="_blank"
                     rel="noreferrer"
@@ -207,6 +210,19 @@ useEffect(() => {
                     <img src={cloudSkillsBoost} alt="okimage" />
                   </a>
                 </div>
+
+                 <div className="magic-wall_item">
+                  <a
+                    href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_Msi482QM3TsSodhna_1752221135302_completion_certificate.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={forage} alt="okimage" />
+                  </a>
+                </div>
+
+
+
 
                 <div className="magic-wall_item">
                   <a
@@ -248,6 +264,20 @@ useEffect(() => {
                     <img src={hackerrank2} alt="okimage" />
                   </a>
                 </div>
+
+                 <div className="magic-wall_item">
+                  <a
+                    href=" https://drive.google.com/file/d/1mP6y6l3Glk9LwOxtj4Fuzt64YuyQrj8a/view"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={internshala} alt="okimage" />
+                  </a>
+                </div>
+
+               
+
+
 
               </React.Fragment>
             ))}
