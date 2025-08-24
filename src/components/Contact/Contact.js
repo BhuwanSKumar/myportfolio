@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom'
 import React from 'react'
 import { useEffect, useState } from 'react'
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
@@ -105,20 +106,13 @@ function Contact() {
                   </span>
                </div>
                <div className="map-wrap">
-   <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
-      <GoogleMap
-         mapContainerStyle={{ width: '100%', height: '100%' }}
-         center={{ lat: 23.54909, lng: 87.29093 }}
-         zoom={15}
-      >
-         <Marker position={{ lat: 23.54909, lng: 87.29093 }}>
-            <InfoWindow>
-               <div>Bhuwan lives here, come over for a cup of coffee</div>
-            </InfoWindow>
-         </Marker>
-      </GoogleMap>
-   </LoadScript>
-</div>
+                  <MapContainer center={[23.54909, 87.29093]} zoom={15}>
+  <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+  <Marker position={[23.54909, 87.29093]} >
+                        <Popup>Bhuwan lives here, come over for a cup of coffee</Popup>
+                     </Marker>
+                  </MapContainer>
+               </div>
             </div>
 
             <Outlet />
