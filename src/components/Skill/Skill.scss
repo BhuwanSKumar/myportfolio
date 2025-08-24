@@ -41,11 +41,11 @@ body {
   
    .text-zone {
       position: absolute;
-      left: 12.7vw;
-      top: 30vh;
-      transform: translateY(-30%);
-      width: 35%;
-      max-height: 80vh;
+      left: 10vw;
+      top: 25vh;
+      transform: translateY(-25%);
+      width: 45%;
+      max-height: 90vh;
       overflow-y: auto;
 
       h1 {
@@ -182,7 +182,7 @@ body {
    right: 0;
    transform: translateY(-50%);
    text-align: center;
-   width: 50%;
+   width: 40%;
    animation: fadeIn 1.3s 1s backwards;
  }
 
