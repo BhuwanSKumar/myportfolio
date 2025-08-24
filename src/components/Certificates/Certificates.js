@@ -163,15 +163,7 @@ useEffect(() => {
                 </div>
 
 
-                <div className="magic-wall_item">
-                  <a
-                    href="https://graphacademy.neo4j.com/c/ea3989e3-3177-44f5-bf4f-526d2e4189dc/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={neo4jM} alt="okimage" />
-                  </a>
-                </div>
+                
 
                 <div className="magic-wall_item">
                   <a
@@ -212,6 +204,18 @@ useEffect(() => {
                     <img src={cloudSkillsBoost} alt="okimage" />
                   </a>
                 </div>
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://graphacademy.neo4j.com/c/ea3989e3-3177-44f5-bf4f-526d2e4189dc/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={neo4jM} alt="okimage" />
+                  </a>
+                </div>
+
+                
 
               </React.Fragment>
             ))}
