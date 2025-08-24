@@ -68,19 +68,11 @@ function Skill() {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={["S", "k", "i", "l", "l", "s", " ", "&"]}
+              strArray={["S", "k", "i", "l", "l", "s"]}
               idx={15}
-            />
-            <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={["E", "x", "p", "e", "r", "i", "e", "n", "c", "e"]}
-              idx={22}
             />
           </h1>
           <p>
-            <br />
-            <br />
             <div className="skill-category">
               <span className="work-exp">Languages: </span>C++, Python, JavaScript, TypeScript, C, SQL, Shell Scripting
             </div>
@@ -112,9 +104,16 @@ function Skill() {
             <div className="skill-category">
               <span className="work-exp">Soft Skills: </span>Problem-Solving, Analytical Thinking, Mentorship, Effective team communication, Bias for action
             </div>
-            <br />
-            <br />
+          </p>
 
+          <h1 className="experience-heading">
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={["E", "x", "p", "e", "r", "i", "e", "n", "c", "e"]}
+              idx={22}
+            />
+          </h1>
+          <p>
             <div className="exp-flex">
               <a
                 href="https://www.ciena.com/"
