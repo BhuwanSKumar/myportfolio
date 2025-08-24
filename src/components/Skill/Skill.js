@@ -79,36 +79,39 @@ function Skill() {
             />
           </h1>
           <p>
-            {/* The main area of my expertise is full-stack web development(both
-            client and service side of the web). */}
             <br />
             <br />
-            - Over 5000 lines: C++, Python, C, JavaScript, TypeScript
+            <div className="skill-category">
+              <span className="work-exp">Languages: </span>C++, Python, JavaScript, TypeScript, C, SQL, Shell Scripting
+            </div>
             <br />
+            <div className="skill-category">
+              <span className="work-exp">Web Development: </span>React.js, Next.js, Node.js, Express.js, RESTful APIs, MongoDB, PostgreSQL, HTML5, CSS3
+            </div>
             <br />
-            - Over 1000 lines: HTML5, CSS3, Tailwind CSS, Python, TypeScript
+            <div className="skill-category">
+              <span className="work-exp">Machine Learning & AI: </span>Supervised & Unsupervised Learning, Deep Learning, NLP, Computer Vision, Generative AI & LLMs, Model Deployment
+            </div>
             <br />
+            <div className="skill-category">
+              <span className="work-exp">Data Analytics & Visualization: </span>Pandas, NumPy, Scikit-learn, Power BI, Tableau, Excel, EDA, Apache Spark
+            </div>
             <br />
-            - Web Development Libraries/Frameworks: React.js, Next.js, Node.js,
-            Express.js, AngularJS, Bootstrap, Material UI
+            <div className="skill-category">
+              <span className="work-exp">Cloud and DevOps: </span>AWS (EC2, S3, SageMaker), Azure, Docker, Kubernetes, CI/CD (GitHub Actions), MLflow
+            </div>
             <br />
+            <div className="skill-category">
+              <span className="work-exp">Tools & Testing: </span>Git, GitHub, Linux, Jupyter Notebook, VS Code, Postman, Unit Testing, Agile/Scrum
+            </div>
             <br />
-            - Familiar: MongoDB, PostgreSQL, MySQL, Swagger, RESTful APIs
+            <div className="skill-category">
+              <span className="work-exp">CS Concepts: </span>Data Structures & Algorithms, OOPS, OS, DBMS, Computer Networks, System Design
+            </div>
             <br />
-            <br />
-            - Data & AI: Pandas, NumPy, Scikit-learn, Apache Spark, Deep
-            Learning, NLP, Computer Vision, Generative AI, LLMs, Model
-            Deployment
-            <br />
-            <br />
-            - Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD (GitHub
-            Actions), MLflow
-            <br />
-            <br />
-            - Tools: Git, Linux, Postman, Unit Testing
-            <br />
-            <br />
-            - Core CS Concepts: Data Structures & Algorithms, OOP, System Design
+            <div className="skill-category">
+              <span className="work-exp">Soft Skills: </span>Problem-Solving, Analytical Thinking, Mentorship, Effective team communication, Bias for action
+            </div>
             <br />
             <br />
 
@@ -121,7 +124,7 @@ function Skill() {
               >
                 Ciena{" "}
               </a>
-              &nbsp;
+              {/* &nbsp; */}
               {/* <div className="vertical-line"></div> */}
               - Software Engineering Intern (May 2025 - Aug 2025)
             </div>
