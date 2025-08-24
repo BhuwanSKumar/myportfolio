@@ -42,10 +42,11 @@ body {
    .text-zone {
       position: absolute;
       left: 12.7vw;
-      top: 50vh;
-      transform: translateY(-60%);
+      top: 30vh;
+      transform: translateY(-30%);
       width: 35%;
-      max-height: 90vh;
+      max-height: 80vh;
+      overflow-y: auto;
 
       h1 {
          font-size: 70px;
@@ -73,6 +74,36 @@ body {
 
          &:after {
             content: '<h2/>';
+            font-family: 'La Belle Aurore', cursive;
+            color: #4e4a85;
+            font-size: 18px;
+            line-height: 18px;
+            position: absolute;
+            left: -30px;
+            bottom: -23px;
+            margin-left: 20px;
+            opacity: 0.6;
+         }
+      }
+
+      .experience-heading {
+         margin-top: 50px;
+         margin-bottom: 25px;
+         
+         &:before {
+            content: '<h3>';
+            font-family: 'La Belle Aurore', cursive;
+            color: #4e4a85;
+            font-size: 18px;
+            position: absolute;
+            left: -10px;
+            opacity: 0.6;
+            line-height: 20px;
+            bottom: 93px;
+         }
+
+         &:after {
+            content: '<h3/>';
             font-family: 'La Belle Aurore', cursive;
             color: #4e4a85;
             font-size: 18px;
