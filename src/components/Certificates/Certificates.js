@@ -26,6 +26,7 @@ import mentor from "../../assets/certificates/mentor.png";
 import accenture2023 from "../../assets/certificates/accenture2023.png";
 import Chatgpt from "../../assets/certificates/Chatgpt.png";
 import Cplusplus from "../../assets/certificates/Cplusplus.png";
+import hackfrost from "../../assets/certificates/hackfrost.png";
 
 function Project() {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -354,7 +355,17 @@ function Project() {
                     <img src={campusAmbassador} alt="okimage" />
                   </a>
                 </div>
-                
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://drive.google.com/file/d/1Gmnjh4VEA83gDTiayZtdpefn9sHQe0gB/view"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={hackfrost} alt="okimage" />
+                  </a>
+                </div>
+
               </React.Fragment>
             ))}
           </div>
