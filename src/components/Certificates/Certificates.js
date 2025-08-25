@@ -222,15 +222,7 @@ function Project() {
                   </a>
                 </div>
 
-                <div className="magic-wall_item">
-                  <a
-                    href="https://files.codingninjas.in/certi_image4822580950ab7c7b5cbad021afa1f4ad3e0b84.jpg"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={Cplusplus} alt="okimage" />
-                  </a>
-                </div>
+                
 
                 <div className="magic-wall_item">
                   <a
@@ -239,6 +231,16 @@ function Project() {
                     rel="noreferrer"
                   >
                     <img src={cloudSkillsBoost} alt="okimage" />
+                  </a>
+                </div>
+
+                <div className="magic-wall_item">
+                  <a
+                    href="https://files.codingninjas.in/certi_image4822580950ab7c7b5cbad021afa1f4ad3e0b84.jpg"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={Cplusplus} alt="okimage" />
                   </a>
                 </div>
 
