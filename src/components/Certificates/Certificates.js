@@ -25,7 +25,7 @@ import contributor from "../../assets/certificates/contributor.png";
 import mentor from "../../assets/certificates/mentor.png";
 import accenture2023 from "../../assets/certificates/accenture2023.png";
 import Chatgpt from "../../assets/certificates/Chatgpt.png";
-import Cplusplus from "../../assets/certificates/C++.png";
+import Cplusplus from "../../assets/certificates/Cplusplus.png";
 
 function Project() {
   const [letterClass, setLetterClass] = useState("text-animate");
