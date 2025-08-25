@@ -242,6 +242,16 @@ function Project() {
                   </a>
                 </div>
 
+                 <div className="magic-wall_item">
+                  <a
+                    href="https://www.hackerrank.com/certificates/iframe/d6bde98fe960"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={hackerrank1} alt="okimage" />
+                  </a>
+                </div>
+
                 <div className="magic-wall_item">
                   <a
                     href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_Msi482QM3TsSodhna_1752221135302_completion_certificate.pdf"
@@ -282,15 +292,7 @@ function Project() {
                   </a>
                 </div>
 
-                <div className="magic-wall_item">
-                  <a
-                    href="https://www.hackerrank.com/certificates/iframe/d6bde98fe960"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={hackerrank1} alt="okimage" />
-                  </a>
-                </div>
+               
 
                 <div className="magic-wall_item">
                   <a
