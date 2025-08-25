@@ -222,6 +222,16 @@ function Project() {
                   </a>
                 </div>
 
+                <div className="magic-wall_item">
+                  <a
+                    href=" https://drive.google.com/file/d/17n3WSPgukTHptfCEsGLbZL_qlx6yNoQ2/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={contributor} alt="okimage" />
+                  </a>
+                </div>
+
                 
 
                 <div className="magic-wall_item">
@@ -306,15 +316,7 @@ function Project() {
                   </a>
                 </div>
 
-                <div className="magic-wall_item">
-                  <a
-                    href=" https://drive.google.com/file/d/17n3WSPgukTHptfCEsGLbZL_qlx6yNoQ2/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={contributor} alt="okimage" />
-                  </a>
-                </div>
+                
 
                 <div className="magic-wall_item">
                   <a
@@ -326,15 +328,7 @@ function Project() {
                   </a>
                 </div>
 
-                <div className="magic-wall_item">
-                  <a
-                    href="https://drive.google.com/file/d/1DxQ9jwpbkMP6S-JcpXcvObsn5SihymBa/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={campusAmbassador} alt="okimage" />
-                  </a>
-                </div>
+               
 
                 <div className="magic-wall_item">
                   <a
@@ -345,6 +339,17 @@ function Project() {
                     <img src={accenture2023} alt="okimage" />
                   </a>
                 </div>
+
+                 <div className="magic-wall_item">
+                  <a
+                    href="https://drive.google.com/file/d/1DxQ9jwpbkMP6S-JcpXcvObsn5SihymBa/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={campusAmbassador} alt="okimage" />
+                  </a>
+                </div>
+                
               </React.Fragment>
             ))}
           </div>
