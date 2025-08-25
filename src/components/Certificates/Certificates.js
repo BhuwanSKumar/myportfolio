@@ -244,17 +244,8 @@ function Project() {
                   </a>
                 </div>
 
-                <div className="magic-wall_item">
-                  <a
-                    href="https://files.codingninjas.in/certi_image4822580950ab7c7b5cbad021afa1f4ad3e0b84.jpg"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={Cplusplus} alt="okimage" />
-                  </a>
-                </div>
 
-                 <div className="magic-wall_item">
+ <div className="magic-wall_item">
                   <a
                     href="https://www.hackerrank.com/certificates/iframe/d6bde98fe960"
                     target="_blank"
@@ -263,6 +254,7 @@ function Project() {
                     <img src={hackerrank1} alt="okimage" />
                   </a>
                 </div>
+               
 
                 <div className="magic-wall_item">
                   <a
@@ -273,6 +265,19 @@ function Project() {
                     <img src={forage} alt="okimage" />
                   </a>
                 </div>
+
+                
+
+                 <div className="magic-wall_item">
+                  <a
+                    href="https://files.codingninjas.in/certi_image4822580950ab7c7b5cbad021afa1f4ad3e0b84.jpg"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={Cplusplus} alt="okimage" />
+                  </a>
+                </div>
+                
 
                 <div className="magic-wall_item">
                   <a
